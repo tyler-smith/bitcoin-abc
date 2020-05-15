@@ -1,9 +1,9 @@
-Contributing to Bitcoin ABC
+Contributing to Bitcoin Cash
 ===========================
 
-The Bitcoin ABC project welcomes contributors!
+The Bitcoin Cash project welcomes contributors!
 
-This guide is intended to help developers contribute effectively to Bitcoin ABC.
+This guide is intended to help developers contribute effectively to Bitcoin Cash.
 
 Communicating with Developers
 -----------------------------
@@ -25,10 +25,10 @@ It is not for:
 * Market discussion
 * Non-constructive criticism
 
-Bitcoin ABC Development Philosophy
+Bitcoin Cash Development Philosophy
 ----------------------------------
 
-Bitcoin ABC aims for fast iteration and continuous integration.
+Bitcoin Cash aims for fast iteration and continuous integration.
 
 This means that there should be quick turnaround for patches to be proposed,
 reviewed, and committed. Changes should not sit in a queue for long.
@@ -60,10 +60,10 @@ quickly, it should be reverted, and re-applied later when it no longer breaks th
 top priority, more important than completing other tasks.
 - Automate as much as possible, and spend time on things only humans can do.
 
-Here are some handy links for development practices aligned with Bitcoin ABC:
+Here are some handy links for development practices aligned with Bitcoin Cash:
 
 - [Developer Notes](doc/developer-notes.md)
-- [Statement of Bitcoin ABC Values and Visions](https://www.yours.org/content/bitcoin-abc---our-values-and-vision-a282afaade7c)
+- [Statement of Bitcoin Cash Values and Visions](https://www.yours.org/content/bitcoin-abc---our-values-and-vision-a282afaade7c)
 - [How to Do Code Reviews Like a Human - Part 1](https://mtlynch.io/human-code-reviews-1/)
 - [How to Do Code Reviews Like a Human - Part 2](https://mtlynch.io/human-code-reviews-2/)
 - [Large Diffs Are Hurting Your Ability To Ship](https://medium.com/@kurtisnusbaum/large-diffs-are-hurting-your-ability-to-ship-e0b2b41e8acf)
@@ -76,7 +76,7 @@ Here are some handy links for development practices aligned with Bitcoin ABC:
 - [Good Work, Great Work, and Right Work](https://forum.dlang.org/post/q7u6g1$94p$1@digitalmars.com)
 - [Accelerate: The Science of Lean Software and DevOps](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)
 
-Getting set up with the Bitcoin ABC Repository
+Getting set up with the Bitcoin Cash Repository
 ----------------------------------------------
 
 1. Create an account at https://reviews.bitcoinabc.org/
@@ -125,7 +125,7 @@ Follow instructions provided by `arc install-certificate` to provide your API to
 6. Code formatting tools
 
 During submission of patches, arcanist will automatically run `arc lint` to
-enforce Bitcoin ABC code formatting standards, and often suggests changes.
+enforce Bitcoin Cash code formatting standards, and often suggests changes.
 If code formatting tools do not install automatically on your system, you
 will have to install clang-format-8, clang-tidy (version >=8), autopep8, flake8,
 phpcs and shellcheck.
@@ -153,7 +153,7 @@ sudo apt-get install python-autopep8 flake8 php-codesniffer shellcheck
 ```
 
 
-Working with The Bitcoin ABC Repository
+Working with The Bitcoin Cash Repository
 ---------------------------------------
 
 A typical workflow would be:
@@ -194,7 +194,7 @@ as the Diff number, reviewers, etc.).
 - When reviewers approve your Diff, it should be listed as "ready to Land"
 in Phabricator. When you want to commit your diff to the repository, check out
 type my-topic-branch in git, then type `arc land`. You have now successfully
-committed a change to the Bitcoin ABC repository.
+committed a change to the Bitcoin Cash repository.
 
 - When reviewing a Diff, apply the changeset on your local by using
 `arc patch D{NNNN}`

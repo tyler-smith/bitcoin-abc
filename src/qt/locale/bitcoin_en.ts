@@ -4047,8 +4047,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="-594"/>
-        <source>Bitcoin ABC</source>
-        <translation type="unfinished">Bitcoin ABC</translation>
+        <source>Bitcoin Cash</source>
+        <translation type="unfinished">Bitcoin Cash</translation>
     </message>
     <message>
         <location line="+1"/>

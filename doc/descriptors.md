@@ -1,6 +1,6 @@
-# Support for Output Descriptors in Bitcoin ABC
+# Support for Output Descriptors in Bitcoin Cash
 
-Since Bitcoin ABC v0.20.7, there is support for Output Descriptors in the
+Since Bitcoin Cash v0.20.7, there is support for Output Descriptors in the
 `scantxoutset` RPC call. This is a simple language which can be used to
 describe collections of output scripts.
 
@@ -104,6 +104,6 @@ steps, or for dumping wallet descriptors including private key material.
 ### Compatibility with old wallets
 
 In order to easily represent the sets of scripts currently supported by
-existing Bitcoin ABC wallets, a convenience function `combo` is provided,
+existing Bitcoin Cash wallets, a convenience function `combo` is provided,
 which takes as input a public key, and constructs the P2PK and P2PKH
 scripts for that key.

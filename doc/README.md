@@ -1,11 +1,11 @@
-Bitcoin ABC
+Bitcoin Cash
 =====================
 
 Setup
 ---------------------
-Bitcoin ABC is a fork of Bitcoin Core, which is the original Bitcoin client and builds the backbone of the network. It downloads and, by default, stores the entire history of Bitcoin transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Bitcoin Cash is a fork of Bitcoin Core, which is the original Bitcoin client and builds the backbone of the network. It downloads and, by default, stores the entire history of Bitcoin transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Bitcoin ABC, visit [bitcoinabc.org](https://download.bitcoinabc.org/).
+To download Bitcoin Cash, visit [bitcoinabc.org](https://download.bitcoinabc.org/).
 
 Verify
 ---------------------
@@ -44,7 +44,7 @@ the presence of those warnings should be heeded with extreme caution.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Bitcoin ABC on your native platform.
+The following are some helpful notes on how to run Bitcoin Cash on your native platform.
 
 ### Unix
 
@@ -65,11 +65,11 @@ Drag bitcoin-abc to your applications folder, and then run bitcoin-abc.
 
 * See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on the [Bitcoin ABC Subreddit](https://www.reddit.com/r/BitcoinABC/).
+* Ask for help on the [Bitcoin Cash Subreddit](https://www.reddit.com/r/BitcoinABC/).
 
 Building
 ---------------------
-The following are developer notes on how to build Bitcoin ABC on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Bitcoin Cash on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -79,7 +79,7 @@ The following are developer notes on how to build Bitcoin ABC on your native pla
 
 Development
 ---------------------
-The Bitcoin ABC repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Bitcoin Cash repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)

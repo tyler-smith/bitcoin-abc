@@ -1,8 +1,8 @@
-# RapidCheck property-based testing for Bitcoin ABC
+# RapidCheck property-based testing for Bitcoin Cash
 
 ## Concept
 
-Property-based testing is experimentally being added to Bitcoin ABC with
+Property-based testing is experimentally being added to Bitcoin Cash with
 [RapidCheck](https://github.com/emil-e/rapidcheck), a C++ framework for
 property-based testing inspired by the Haskell library
 [QuickCheck](https://hackage.haskell.org/package/QuickCheck).
@@ -38,9 +38,9 @@ The following instructions have been tested with Linux Debian and macOS.
     sudo ninja install/strip
     ```
 
-3. Configure Bitcoin ABC with RapidCheck.
+3. Configure Bitcoin Cash with RapidCheck.
 
-    `cd` to the directory of your local Bitcoin ABC repository, create a build
+    `cd` to the directory of your local Bitcoin Cash repository, create a build
     directory and run cmake:
 
     ```shell
@@ -58,7 +58,7 @@ The following instructions have been tested with Linux Debian and macOS.
     [...]
     ```
 
-4. Build Bitcoin ABC with RapidCheck.
+4. Build Bitcoin Cash with RapidCheck.
 
     Now you can run `ninja check` to build and run the unit tests, including the
     property-based tests. You can also build and run a single test by using
@@ -66,4 +66,4 @@ The following instructions have been tested with Linux Debian and macOS.
 
     Example: `ninja check-bitcoin-key_properties`
 
-That's it! You are now running property-based tests in Bitcoin ABC.
+That's it! You are now running property-based tests in Bitcoin Cash.

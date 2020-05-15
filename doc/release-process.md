@@ -1,4 +1,4 @@
-Bitcoin ABC Release Process
+Bitcoin Cash Release Process
 ===========================
 
 
@@ -68,6 +68,6 @@ Bitcoin ABC Release Process
 15. Announce Release:
     - [Reddit](https://www.reddit.com/r/BitcoinABC/)
     - Twitter @Bitcoin_ABC
-    - Public slack channels friendly to Bitcoin ABC announcements
+    - Public slack channels friendly to Bitcoin Cash announcements
       (eg. #abc-announce on BTCforks,  #hardfork on BTCchat)
 

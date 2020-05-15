@@ -24,7 +24,7 @@ option(ENABLE_QRCODE "Enable QR code display" ON)
 option(ENABLE_UPNP "Enable UPnP support" ON)
 option(ENABLE_WERROR "Promote some compiler warnings to errors" OFF)
 option(START_WITH_UPNP "Make UPnP the default to map ports" OFF)
-option(ENABLE_CLANG_TIDY "Enable clang-tidy checks for Bitcoin ABC" OFF)
+option(ENABLE_CLANG_TIDY "Enable clang-tidy checks for Bitcoin Cash" OFF)
 option(ENABLE_PROFILING "Select the profiling tool to use" OFF)
 option(USE_LD_GOLD "Try to use gold as a linker if available" ON)
 
@@ -271,7 +271,7 @@ add_custom_command(
 		${CMAKE_COMMAND} -E remove "${BUILD_HEADER_TMP}"
 )
 
-# Because the Bitcoin ABc source code is disorganised, we
+# Because the Bitcoin Cash source code is disorganised, we
 # end up with a bunch of libraries without any apparent
 # cohesive structure. This is inherited from Bitcoin Core
 # and reflecting this.

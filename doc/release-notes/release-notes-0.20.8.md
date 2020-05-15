@@ -1,4 +1,4 @@
-Bitcoin ABC version 0.20.8 is now available from:
+Bitcoin Cash version 0.20.8 is now available from:
 
   <https://download.bitcoinabc.org/0.20.8/>
 
@@ -15,7 +15,7 @@ This release includes the following features and fixes:
 Network
 -------
  - When fetching a transaction announced by multiple peers, previous versions of
-   Bitcoin ABC would sequentially attempt to download the transaction from each
+   Bitcoin Cash would sequentially attempt to download the transaction from each
    announcing peer until the transaction is received, in the order that those
    peers' announcements were received.  In this release, the download logic has
    changed to randomize the fetch order across peers and to prefer sending

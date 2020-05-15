@@ -1,4 +1,4 @@
-Bitcoin ABC version 0.21.1 is now available from:
+Bitcoin Cash version 0.21.1 is now available from:
 
   <https://download.bitcoinabc.org/0.21.1/>
 

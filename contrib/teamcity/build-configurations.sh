@@ -50,7 +50,7 @@ run_test_bitcoin() {
   ninja test_bitcoin
 
   TEST_BITCOIN_JUNIT="junit_results_unit_tests${1:+_${1// /_}}.xml"
-  TEST_BITCOIN_SUITE_NAME="Bitcoin ABC unit tests${1:+ $1}"
+  TEST_BITCOIN_SUITE_NAME="Bitcoin Cash unit tests${1:+ $1}"
 
   # More sanitizer options are needed to run the executable directly
   ASAN_OPTIONS="malloc_context_size=0:${ASAN_OPTIONS}" \

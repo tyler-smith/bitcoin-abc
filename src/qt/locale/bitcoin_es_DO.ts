@@ -1123,7 +1123,7 @@
 </translation>
     </message>
     <message>
-        <source>Bitcoin ABC</source>
+        <source>Bitcoin Cash</source>
         <translation>ABC Bitcoin</translation>
     </message>
     <message>
